@@ -93,6 +93,8 @@ h2 {
 .week {
   /*Set the display value of elements with a class of week to inline-flex.*/
   display: inline-flex;
+  /* Set the flex-grow value of elements with a class of week to 3. */
+  flex-grow: 3;
 }
 
 .row {
@@ -130,6 +132,8 @@ h2 {
   background-color: Khaki;
   /* Set the display value of elements with a class of reminders to inline-flex. */
   display: inline-flex;
+  /* Set the flex-grow value of elements with a class of reminders to 2. */
+  flex-grow: 2;
 }
 
 .reminders h3 {
