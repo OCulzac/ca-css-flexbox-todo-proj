@@ -95,6 +95,8 @@ h2 {
   display: inline-flex;
   /* Set the flex-grow value of elements with a class of week to 3. */
   flex-grow: 3;
+  /*Set the week class elements to have a column flex-direction.*/
+  flex-direction: column;
 }
 
 .row {
