@@ -104,6 +104,8 @@ h2 {
   display: flex;
   /*Use the flex-wrap property to wrap elements with class row.*/
   flex-wrap: wrap;
+  /*Set the justify-content property of elements with a class of row to space-around.*/
+  justify-content: space-around;
 }
 
 .square {
@@ -112,6 +114,8 @@ h2 {
   padding: 10px;
   /* Set the display value of elements with a class of square to flex. */
   display: flex;
+  /*Set the justify-content property of elements with a class of square to center.*/
+  justify-content: center;
 }
 
 .day.square {
